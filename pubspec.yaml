@@ -1,0 +1,98 @@
+name: carehealth
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.5
+  get: ^4.6.5
+  reactive_cupertino_switch: ^0.5.0
+  readmore: ^2.2.0
+  # curved_navigation_bar: ^1.0.
+  responsive_framework: ^0.2.0
+  rating_summary: ^1.0.2+1
+  google_fonts: ^3.0.1
+  otp_text_field: ^1.1.3
+  table_calendar: ^3.0.9
+  flutter_rating_bar: ^4.0.1
+  scroll_app_bar: ^2.0.0
+  flutter_speed_dial: ^6.2.0
+  flutter_custom_clippers: ^2.1.0
+
+
+
+  firebase_auth: ^4.4.2
+  cloud_firestore: ^4.5.0
+  firebase_core: ^2.9.0
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/floating_images/
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+          weight: 400
+
+    - family: switzer
+      fonts:
+        - asset: assets/fonts/switzer/Switzer-Bold.otf
+          weight: 700
+        - asset: assets/fonts/switzer/Switzer-Medium.otf
+          weight: 500
+
+
+    - family: Bebas
+      fonts:
+        - asset: assets/fonts/Bebas/Bebas-Regular.ttf
+          weight: 400
+
+
+    - family: DEMO
+      fonts:
+        - asset: assets/fonts/DEMO/Fontspring-DEMO-integralcf-bold.otf
+          weight: 400
+
